@@ -11,11 +11,11 @@ class Paddle(Turtle):#Creating a child class from turtle to create paddles
             
         # #Function to move the self up
         def go_up(self):
-            new_y = self.ycor() + 20
+            new_y = self.ycor() + 30
             self.goto(self.xcor(),new_y)
 
 
 #Function to move the self down
         def go_down(self):
-            new_y = self.ycor() - 20
+            new_y = self.ycor() - 30
             self.goto(self.xcor(),new_y)
